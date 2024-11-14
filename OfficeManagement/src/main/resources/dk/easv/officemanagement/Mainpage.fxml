@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: LIGHTBLUE;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">>
+   <children>
+      <Button fx:id="btnNewCheckIn" layoutX="87.0" layoutY="720.0" mnemonicParsing="false" text="New Check In " />
+      <Button fx:id="btnCheckOut" layoutX="200.0" layoutY="720.0" mnemonicParsing="false" text="Check Out" />
+      <ListView fx:id="lstCheckIn" layoutX="413.0" layoutY="89.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="lstCheckOut" layoutX="645.0" layoutY="89.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="lstAvalibleMeetingRoom" layoutX="413.0" layoutY="326.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="lstOccupiedMeetingRoom" layoutX="645.0" layoutY="326.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="489.0" layoutY="62.0" text="Check in" />
+      <Label layoutX="707.0" layoutY="62.0" prefHeight="17.0" prefWidth="76.0" text="Checked out" />
+      <Label layoutX="667.0" layoutY="298.0" prefHeight="17.0" prefWidth="156.0" text="Occouipied Meeting rooms" />
+      <Label layoutX="454.0" layoutY="298.0" prefHeight="17.0" prefWidth="137.0" text="Avalible Meeting room" />
+      <Label layoutX="116.0" layoutY="62.0" text="All ready Createt people " />
+      <ListView fx:id="lstSavedPeople" layoutX="83.0" layoutY="90.0" prefHeight="438.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
